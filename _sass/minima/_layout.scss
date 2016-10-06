@@ -16,10 +16,11 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: #fff;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        //color: $grey-color-dark;
     }
 }
 
