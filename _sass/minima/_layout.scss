@@ -262,7 +262,7 @@
 .home-col {
     background-color: $background-color;
     float: left;
-    //margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
     padding: $spacing-unit / 2;
     //padding-left: $spacing-unit / 2;
     width: -webkit-calc(30% - (#{$spacing-unit} / 2));
@@ -289,6 +289,7 @@
     .home-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
+		margin-bottom: $spacing-unit / 2;
     }
 
     .home-col-3 {
@@ -302,5 +303,6 @@
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
+		margin-bottom: $spacing-unit / 2;
     }
 }
