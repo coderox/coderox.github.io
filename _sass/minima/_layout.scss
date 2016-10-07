@@ -2,11 +2,16 @@
  * Site header
  */
 .site-header {
-    min-height: 180px;
+    min-height: 108px;
     background-color: #000;
     color: #fff;
+    border-bottom: 40px solid rgb(32, 196, 244);//$grey-color-light;
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    @include media-query($on-palm) {
+        border-bottom: 5px solid rgb(32, 196, 244);;
+    }
 }
 
 .site-title {
@@ -28,17 +33,20 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+    line-height: 40px;
+    position: absolute;
+    vertical-align: bottom;
+    bottom: -40px; 
+    text-transform: uppercase;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: #fff;//$text-color;
         line-height: $base-line-height;
-
+        
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
@@ -46,13 +54,13 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
+        bottom: auto;
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
-        text-align: right;
+        text-align: right;        
 
         .menu-icon {
             display: block;
@@ -64,7 +72,7 @@
             text-align: center;
 
             > svg path {
-                fill: $grey-color-dark;
+                fill: #fff;//$grey-color-dark;
             }
         }
 
@@ -96,8 +104,10 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    //border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit / 2 0;
+    color: #fff;
+    font-size: 12px;
 }
 
 .footer-heading {
@@ -113,7 +123,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $coderox-gray-light;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -121,7 +131,7 @@
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    //padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
@@ -166,7 +176,12 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+}
+
+.page-content .wrapper {
+    background: #fff;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
 }
 
 .page-heading {
@@ -191,8 +206,6 @@
     display: block;
     font-size: 24px;
 }
-
-
 
 /**
  * Posts

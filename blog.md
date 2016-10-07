@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: page
+title: Blog
+permalink: /blog/
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Last blog post</h1>
+  <h1 class="page-heading">Blog</h1>
 
   <ul class="post-list">
-    {% for post in site.posts limit:1 %}
+    {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
