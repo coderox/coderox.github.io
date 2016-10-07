@@ -15,7 +15,7 @@ permalink: /blog/
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-content">{{ post.content | limit 250 | escape }}</span>
+        <span class="post-content">{{ post.excerpt }}</span>
       </li>
     {% endfor %}
   </ul>
