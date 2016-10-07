@@ -4,7 +4,23 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Last blog post</h1>
+  <h1>Welcome to Coderox AB</h1>
+
+  <p>Coderox was founded in Vallentuna, Sweden in August 2011 by Johan Lindfors after several of years working at <a href="http://www.microsoft.se/" target="_blank" title="Microsoft">Microsoft</a> and also a short period with <a href="http://www.infozone.se/" target="_blank" title="Infozone">Infozone</a>. After having been one of the most familiar faces in the Swedish developer community, evangelizing the Microsoft technologies and products, Johan decided it was time to build something new and exciting.</p>
+  <p>CODEROX OFFERINGS</p>
+  <p>Coderox core assets are designing and developing mobile solutions and applications - primarily for the Microsoft client platform, and providing developer related consulting services:</p>
+  <ul>
+    <li>App and solution development</li>
+    <li>Architectural guidance and recommendations</li>
+    <li>User Interface and User Experience design</li>
+    <li>Cross-platform development targeting iOS, Android and Windows with Xamarin</li>
+    <li>Game development</li>
+    <li>Web application development with ASP.NET and related technologies</li>
+    <li>Cloud-based applications with Windows Azure and Office 365</li>
+    <li>Training, workshops, labs and custom presentations</li>
+  </ul>
+
+  <h1 class="page-heading">From the coderox blog</h1>
 
   <ul class="post-list">
     {% for post in site.posts limit:1 %}
@@ -20,4 +36,19 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+
+  <div class="home-col-wrapper">
+    <div class="home-col home-col-1">
+      <h3>PROFESSIONAL DEVELOPMENT</h3>
+      <p>With long experience in the overall Microsoft platform and technologies, Coderox develops solutions reaching from the cloud into the mobile devices. Coderox also have knowledge in developing games.</p>
+    </div>
+    <div class="home-col home-col-2">
+      <h3>SOLUTION ARCHITECTURE</h3>
+      <p>Code rocks, but having a good design and architecture is vital to an applications or solutions success. Security, performance, UX, testing, patterns and data access, Coderox talk the talk and walk the walk.</p>
+    </div>
+    <div class="home-col home-col-3">
+      <h3>TRAINING & COACHING</h3>
+      <p>Coderox have several years of experience in presentations, demonstrations, workshops and labs towards developers and IT-professionals. Each customer gets material customized to fit their needs and expectations!</p>
+    </div>    
+  </div>
 </div>
