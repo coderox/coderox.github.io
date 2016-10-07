@@ -287,8 +287,8 @@
 @include media-query($on-laptop) {
     .home-col-1,
     .home-col-2 {
-        width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-        width:         calc(45% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(44% - (#{$spacing-unit} / 2));
+        width:         calc(44% - (#{$spacing-unit} / 2));
 		margin-bottom: $spacing-unit / 2;
     }
 
