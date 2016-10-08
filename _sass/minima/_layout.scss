@@ -285,12 +285,10 @@
 @include media-query($on-laptop) {
     .home-col {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width: 100%;        
     }
 
     .home-col-1 .home-col-2 {
         margin-right: 0;
-       
-    }
+           }
 }
