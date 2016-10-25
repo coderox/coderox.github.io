@@ -20,19 +20,20 @@ layout: default
     <li>Training, workshops, labs and custom presentations</li>
   </ul>
 
-  <h1 class="page-heading">From the coderox blog</h1>
+  <br/>
 
-  <ul class="post-list">
     {% for post in site.posts limit:1 %}
+    <h3>This was published {{ post.date | date: "%b %-d, %Y" }} on the coderox blog</h3>
+
+    <ul class="post-list">
       <li>        
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <p class="post-content">{{ post.excerpt }}</p>
+        <p class="post-content">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
       </li>
+    </ul>
     {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
