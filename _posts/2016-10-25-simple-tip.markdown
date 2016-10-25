@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple tip for blogging with jekyll!"
 date:   2016-10-25 08:37:00 +0100
-categories: blogging jekyll
+categories: blogging
 ---
 
 After having spent some time working with jekyll (yes I'm actually working on a series of posts) I realized I needed a better solution for running jekyll locally without having to change config files.
