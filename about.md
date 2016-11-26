@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: Om
 permalink: /about/
 ---
 
-Coderox was founded in Vallentuna, Sweden in August 2011 by Johan Lindfors after several of years working at [Microsoft](http://www.microsoft.se/) and also a short period with [Infozone](http://www.infozone.se/). After having been one of the most familiar faces in the Swedish developer community, evangelizing the Microsoft technologies and products, Johan decided it was time to build something new and exciting.
+Coderox grundades i Augusti 2011 i Vallentuna av Johan Lindfors. Johan hade tidigare jobbat flera år på [Microsoft](http://www.microsoft.se/) och också under en period på [Infozone](http://www.infozone.se/). Efter att ha blivit ett av de mest välbekanta ansiktena bland Microsoft utvecklarna i Sverige, bestämde han sig att det var dags att provat något nytt och spännande.
 
-This website is hosted on [Github Pages](https://github.com/pages) and built with [Jekyll](https://github.com/jekyll/jekyll), using a customized version of the [minima](https://github.com/jekyll/minima) theme.
+Den här webbplatsen använder [Github Pages](https://github.com/pages) och är byggd med [Jekyll](https://github.com/jekyll/jekyll). Den använder en anpassad version av temat [minima](https://github.com/jekyll/minima).
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Vill du ha mer information om anpassning av teman till Jekyll, eller mer grundläggande dokumentation om Jekyll så kan du hitta det på [jekyllrb.com](http://jekyllrb.com/)
