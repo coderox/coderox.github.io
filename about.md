@@ -9,3 +9,5 @@ Coderox grundades i Augusti 2011 i Vallentuna av Johan Lindfors. Johan hade tidi
 Den här webbplatsen använder [Github Pages](https://github.com/pages) och är byggd med [Jekyll](https://github.com/jekyll/jekyll). Den använder en anpassad version av temat [minima](https://github.com/jekyll/minima).
 
 Vill du ha mer information om anpassning av teman till Jekyll, eller mer grundläggande dokumentation om Jekyll så kan du hitta det på [jekyllrb.com](http://jekyllrb.com/)
+
+Under julen 2016 använder denna sida cookies. En cookie är en liten textfil som placeras på din dator och denna används för att du ska uppleva sajten på bästa sätt.
