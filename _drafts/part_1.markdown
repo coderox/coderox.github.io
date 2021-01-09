@@ -19,8 +19,8 @@ Now I'm going to update the existing files to leverage Template10 and apply som 
 
 ```xml
 <t10common:BootStrapper x:Class="GrooveSandbox.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:t10common="using:Template10.Common"
     RequestedTheme="Dark">
 
@@ -85,8 +85,8 @@ So how does the MainPage.xaml look like?
 
 ```xml
 <Page x:Class="GrooveSandbox.Views.MainPage"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:t10controls="using:Template10.Controls">
 
     <Grid>
@@ -118,8 +118,8 @@ Now we're going to add the code to the Shell.xaml as follows:
 
 ```xml
 <Page x:Class="GrooveSandbox.Shell"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:t10controls="using:Template10.Controls">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">

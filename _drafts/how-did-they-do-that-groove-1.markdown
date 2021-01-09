@@ -31,5 +31,5 @@ I'm also going to keep all of the source code online on [GitHub][groovesandbox-g
 
 Does this sound interesting, want to follow along? Let's get started with the first part!
 
-[template10-github]: http://github.com/Windows-XAML/Template10
+[template10-github]: https://github.com/Windows-XAML/Template10
 [groovesandbox-github]: https://github.com/coderox/GrooveSandbox
