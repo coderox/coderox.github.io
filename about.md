@@ -4,7 +4,7 @@ title: Om
 permalink: /about/
 ---
 
-Coderox grundades i Augusti 2011 i Vallentuna av Johan Lindfors. Johan hade tidigare jobbat flera år på [Microsoft](https://www.microsoft.se/) och också under en period på [Infozone](https://www.infozone.se/). Efter att ha blivit ett av de mest välbekanta ansiktena bland Microsoft utvecklarna i Sverige, bestämde han sig att det var dags att provat något nytt och spännande.
+Coderox grundades i Augusti 2011 i Vallentuna av Johan Lindfors. Johan hade tidigare jobbat flera år på [Microsoft](https://www.microsoft.com/sv-se/) och också under en period på [Infozone](https://www.infozone.se/). Efter att ha blivit ett av de mest välbekanta ansiktena bland Microsoft utvecklarna i Sverige, bestämde han sig att det var dags att provat något nytt och spännande.
 
 Den här webbplatsen använder [Github Pages](https://github.com/pages) och är byggd med [Jekyll](https://github.com/jekyll/jekyll). Den använder en anpassad version av temat [minima](https://github.com/jekyll/minima).
 
