@@ -18,9 +18,9 @@ email: info@coderox.se
 phone: +46(0)734200271
 address: Box 35, 186 21 Vallentuna, Sweden
 description: > # this means to ignore newlines until "baseurl:"
-  Blogg och information // coderox
+  Information // coderox
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.coderox.se" # the base hostname & protocol for your site
+url: "https://coderox.se" # the base hostname & protocol for your site
 #url: "https://localhost:4000" # the local url during development
 twitter_username: coderox
 github_username:  coderox
